@@ -127,7 +127,7 @@ class text_detecter(object):
             return None
         attr_entity = getattr(event,attr)
         val = attr_entity.value
-        if (val.find('我')):
+        if (val.find('我')!=-1 or val.find('自己')!=-1):
             return event.speaker.value
         return val
 
