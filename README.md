@@ -1,0 +1,2 @@
+# AliginmentAndErrorCorrection
+事件对齐与事件纠错
