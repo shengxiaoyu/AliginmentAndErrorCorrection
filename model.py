@@ -88,16 +88,29 @@ class Event(object):
         if(res.endswith(',')):
             res = res[:-1]
         return res
-# class Know(Event):
-#     def __init__(self, id, trigger):
-#         super(Know,self).__init__(id, 'Know', trigger)
 
 class Relation(object):
     def __init__(self,id, type, arg1, arg2):
         self.id = id
         self.type = type
-        self.arg1 = arg1
-        self.arg2 = arg2
+
+        #事件id，保证小id为arg1,大id为arg2
+        id_index_1 = int(arg1.id[1:])
+        id_index_2 = int(arg2.id[1:])
+
+        if(id_index_1>id_index_2):
+            self.arg1 = arg2
+            self.arg2 = arg1
+        else:
+            self.arg1 = arg1
+            self.arg2 = arg2
+
+    def __eq__(self, other):
+        if(other==None):
+            return False
+        if(self.arg1==other.arg1 and self.arg2==other.arg2):
+            return True
+        return False
 
 class event_types(Enum):
     KNOW = 'Know'

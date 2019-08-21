@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3671ccd7-d8b9-45f6-bc9c-a651a886a6a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/util/text_detecter.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/text_detecter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluation/eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +18,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/event_alignment/alignmenter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="51" column="85" selection-start-line="51" selection-start-column="85" selection-end-line="51" selection-end-column="85" />
+            <state relative-caret-position="-1634">
+              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
               <folding>
                 <element signature="e#107#167#0" expanded="true" />
-                <element signature="e#369#1191#0" />
               </folding>
             </state>
           </provider>
@@ -28,11 +30,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/check_conflict/check_conflict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
+            <state relative-caret-position="893">
               <caret line="207" column="24" selection-start-line="207" selection-start-column="24" selection-end-line="207" selection-end-column="24" />
               <folding>
                 <element signature="e#106#157#0" expanded="true" />
-                <element signature="e#6313#7451#0" />
               </folding>
             </state>
           </provider>
@@ -41,17 +42,55 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="532">
+              <caret line="31" column="28" lean-forward="true" selection-end-line="55" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/evaluation/eval.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-305">
+              <caret line="78" column="34" lean-forward="true" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
+              <folding>
+                <element signature="e#106#141#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_pre_process/handle_single_file.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="145" column="80" selection-start-line="145" selection-start-column="67" selection-end-line="145" selection-end-column="80" />
+              <folding>
+                <element signature="e#107#119#0" expanded="true" />
+                <element signature="e#3257#5379#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
+              <folding>
+                <element signature="e#106#127#0" expanded="true" />
+                <element signature="e#874#3461#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/text_detecter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="126" column="23" lean-forward="true" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
+            <state relative-caret-position="779">
+              <caret line="113" column="36" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="36" />
               <folding>
                 <element signature="e#107#116#0" expanded="true" />
                 <element signature="e#524#1561#0" />
@@ -118,11 +157,12 @@
         <option value="$PROJECT_DIR$/event_alignment/main.py" />
         <option value="$PROJECT_DIR$/util/constant.py" />
         <option value="$PROJECT_DIR$/data_pre_process/test.py" />
-        <option value="$PROJECT_DIR$/model.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/check_conflict/check_conflict.py" />
         <option value="$PROJECT_DIR$/event_alignment/alignmenter.py" />
         <option value="$PROJECT_DIR$/util/text_detecter.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/evaluation/eval.py" />
       </list>
     </option>
   </component>
@@ -148,12 +188,7 @@
             <path>
               <item name="AliginmentAndErrorCorrection" type="b2602c69:ProjectViewProjectNode" />
               <item name="AliginmentAndErrorCorrection" type="462c0819:PsiDirectoryNode" />
-              <item name="check_conflict" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AliginmentAndErrorCorrection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AliginmentAndErrorCorrection" type="462c0819:PsiDirectoryNode" />
-              <item name="data_pre_process" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.eval">
     <configuration name="alignmenter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AliginmentAndErrorCorrection" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,7 +254,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="check_conflict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="eval" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AliginmentAndErrorCorrection" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,12 +262,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/check_conflict" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/evaluation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/check_conflict/check_conflict.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluation/eval.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,11 +344,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.eval" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.alignmenter" />
         <item itemvalue="Python.text_detecter" />
-        <item itemvalue="Python.check_conflict" />
       </list>
     </recent_temporary>
   </component>
@@ -343,12 +378,14 @@
       <workItem from="1565594621357" duration="7839000" />
       <workItem from="1565661110262" duration="1815000" />
       <workItem from="1565743380843" duration="26924000" />
-      <workItem from="1565859951720" duration="8455000" />
+      <workItem from="1565859951720" duration="8524000" />
+      <workItem from="1566270399947" duration="1536000" />
+      <workItem from="1566373218969" duration="5155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108233000" />
+    <option name="totallyTimeSpent" value="114993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -359,8 +396,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32994923" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24365482" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4644309" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.11686992" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -408,11 +445,6 @@
           <line>139</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -421,6 +453,7 @@
     <SUITE FILE_PATH="coverage/AliginmentAndErrorCorrection$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1565866602072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AliginmentAndErrorCorrection$generate_bert_input.coverage" NAME="generate_bert_input Coverage Results" MODIFIED="1563782968195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_pre_process" />
     <SUITE FILE_PATH="coverage/AliginmentAndErrorCorrection$alignmenter.coverage" NAME="alignmenter Coverage Results" MODIFIED="1565848002848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/event_alignment" />
+    <SUITE FILE_PATH="coverage/AliginmentAndErrorCorrection$eval.coverage" NAME="eval Coverage Results" MODIFIED="1566377446578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/evaluation" />
     <SUITE FILE_PATH="coverage/AliginmentAndErrorCorrection$run_classifier.coverage" NAME="run_classifier Coverage Results" MODIFIED="1563784367853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert" />
     <SUITE FILE_PATH="coverage/AliginmentAndErrorCorrection$main.coverage" NAME="main Coverage Results" MODIFIED="1564462038129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/event_alignment" />
     <SUITE FILE_PATH="coverage/AliginmentAndErrorCorrection$similar_calculator.coverage" NAME="similar_calculator Coverage Results" MODIFIED="1564372029682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/edit_distance_similar" />
@@ -601,17 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_pre_process/handle_single_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1444">
-          <caret line="78" column="59" selection-start-line="78" selection-start-column="59" selection-end-line="78" selection-end-column="59" />
-          <folding>
-            <element signature="e#107#119#0" expanded="true" />
-            <element signature="e#3257#5379#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_pre_process/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -630,12 +652,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model.py">
+    <entry file="file://$PROJECT_DIR$/check_conflict/check_conflict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="178" column="24" lean-forward="true" selection-start-line="178" selection-start-column="24" selection-end-line="178" selection-end-column="24" />
+        <state relative-caret-position="893">
+          <caret line="207" column="24" selection-start-line="207" selection-start-column="24" selection-end-line="207" selection-end-column="24" />
           <folding>
-            <element signature="e#106#127#0" expanded="true" />
+            <element signature="e#106#157#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -647,39 +669,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check_conflict/check_conflict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="207" column="24" selection-start-line="207" selection-start-column="24" selection-end-line="207" selection-end-column="24" />
-          <folding>
-            <element signature="e#106#157#0" expanded="true" />
-            <element signature="e#6313#7451#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event_alignment/alignmenter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="51" column="85" selection-start-line="51" selection-start-column="85" selection-end-line="51" selection-end-column="85" />
-          <folding>
-            <element signature="e#107#167#0" expanded="true" />
-            <element signature="e#369#1191#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/text_detecter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="126" column="23" lean-forward="true" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
+        <state relative-caret-position="779">
+          <caret line="113" column="36" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="36" />
           <folding>
             <element signature="e#107#116#0" expanded="true" />
             <element signature="e#524#1561#0" />
@@ -689,6 +682,55 @@
             <element signature="e#2949#3159#0" />
             <element signature="e#3311#3452#0" />
             <element signature="e#3542#4070#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event_alignment/alignmenter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1634">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <folding>
+            <element signature="e#107#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="31" column="28" lean-forward="true" selection-end-line="55" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_pre_process/handle_single_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="145" column="80" selection-start-line="145" selection-start-column="67" selection-end-line="145" selection-end-column="80" />
+          <folding>
+            <element signature="e#107#119#0" expanded="true" />
+            <element signature="e#3257#5379#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
+          <folding>
+            <element signature="e#106#127#0" expanded="true" />
+            <element signature="e#874#3461#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-305">
+          <caret line="78" column="34" lean-forward="true" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
+          <folding>
+            <element signature="e#106#141#0" expanded="true" />
           </folding>
         </state>
       </provider>
